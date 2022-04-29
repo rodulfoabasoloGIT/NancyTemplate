@@ -3,16 +3,7 @@ import { useState } from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import icon from "../../static/icon.png"
-import {
-  Navbar,
-  Nav,
-  Container,
-  Offcanvas,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap"
+import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap"
 import {
   faFacebook,
   faTwitter,
@@ -144,6 +135,18 @@ const Navigation = () => {
           </Navbar.Offcanvas>
 
           <Nav className="d-none d-lg-flex d-xl-flex">
+            {/* <Link className="links" to="/">
+              Home
+            </Link>
+            <Link className="links" to="#author">
+              About the Author
+            </Link>
+            <Link className="links" to="#book">
+              About the Book
+            </Link>
+            <Link className="links" to="#contact">
+              Contact
+            </Link> */}
             <Nav.Link className="links" href="#home">
               Home
             </Nav.Link>
